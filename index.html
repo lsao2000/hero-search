@@ -8,27 +8,36 @@
     <link rel="stylesheet" href="index.css">
     <title>Home</title>
 </head>
-<body> 
-    <div class="card w-50 mx-auto mt-5 text-light">
-        <div >
-            <img src="" id="img" alt="" class="card-img-top">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title" id="name"></h5>
-            <h5 id="powerstats"></h5>
-            <h5 id="intelligence"></h5>
-            <h5 id="combat"></h5>
-            <h5 id="gender"></h5>
-            <h5 id="work"></h5>
-        </div>
-        <div class="card-footer">
-            <button id="random" class="btn btn-info w-100">Random hero</button>
-            <div class="mt-5">
-                <input type="text" id="input" class="form-control" placeholder="Name of the hero">
-                <button id="search" class="btn mt-3 w-100 btn-success">Search</button>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1 col-sm-2"></div>
+            <div class="col-10 col-sm-8">
+                <div class="card mt-5 text-light">
+                    <div>
+                        <img src="" id="img" alt="" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title" id="name"></p>
+                        <p id="powerstats"></p>
+                        <p id="intelligence"></p>
+                        <p id="combat"></p>
+                        <p id="gender"></p>
+                        <p id="work"></p>
+                    </div>
+                    <div class="card-footer">
+                        <button id="random" class="btn btn-info w-100">Random hero</button>
+                        <div class="mt-2">
+                            <input type="text" id="input" class="form-control" placeholder="Name of the hero">
+                            <button id="search" class="btn mt-2 w-100 btn-success">Search</button>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="col-1 col-sm-2"></div>
         </div>
-    </div>
+    </div> 
+    
     <script src="index.js"></script>
 </body>
 </html>
